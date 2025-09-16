@@ -1,0 +1,132 @@
+<gui>
+  <properties>
+    <project>Xpanel測試大禮包</project>
+    <designer>
+    </designer>
+    <size>
+      <portrait width="320" height="480" />
+      <landscape width="1024" height="768" />
+    </size>
+    <imagefolder>
+    </imagefolder>
+    <debug loaderrors="0" connectionerrors="0" />
+    <devices>
+      <device name="1eb34a27-6f35-4c8f-9a56-fb5e1bbd1df8">94CB09A76C8F70C8EF93EB3100D9ACDD719F1DCBC472B4767A8D29A41EAC78EE</device>
+    </devices>
+  </properties>
+  <systems>
+    <system name="sendipad" ip="192.168.5.110" port="2222" protocol="udp" alwayson="1" offlinequeue="0" accept="0" acceptBroadcasts="0" ssl="0" maxconnections="0" heartbeatRx="" heartbeatTx="" heartbeatMode="-1" eom="" connectionStatus="0" disconnectionStatus="0">
+      <cmd name="connect">'connect'</cmd>
+    </system>
+    <system name="sendandroid" ip="192.168.0.200" origin="2222" port="1234" protocol="udp" alwayson="1" offlinequeue="0" accept="0" acceptBroadcasts="0" ssl="0" maxconnections="0" heartbeatRx="" heartbeatTx="" heartbeatMode="-1" eom="" connectionStatus="0" disconnectionStatus="0">
+      <cmd name="connect_1">'connect'</cmd>
+    </system>
+  </systems>
+  <themes>
+    <theme type="background" name=".BG2"><![CDATA[ background-image: url(BG2.png); background-repeat: no-repeat;]]></theme>
+    <theme type="button" name=".Empty_btn[state='0']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(未命名設計__1_-removebg-preview.png); color: Black; font-size: 35px; font-family: '微軟正黑體'; font-weight: bold; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".Empty_btn[state='1']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(未命名設計__2_-removebg-preview.png); color: White; font-size: 35px; font-family: '微軟正黑體'; font-weight: bold; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="text" name=".TEXT1"><![CDATA[ color: White; font-size: 20px; font-family: '微軟正黑體'; text-align: center; vertical-align: middle; font-weight: normal; font-style: none; text-decoration: none; display: table-cell;]]></theme>
+    <theme type="input" name=".newtheme_2"><![CDATA[ border-width: 0px; color: Black; font-size: 20px; font-family: '微軟正黑體'; text-align: center; vertical-align: middle; font-weight: normal; font-style: none; text-decoration: none; display: table-cell;]]></theme>
+    <theme type="button" name=".connect[state='0']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(螢幕擷取畫面_2024-11-22_101219-removebg-preview.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".connect[state='1']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(螢幕擷取畫面_2024-11-22_101232-removebg-preview.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="text" name=".newtheme_3"><![CDATA[ color: Black; font-size: 12px; font-family: 'Arial'; text-align: center; vertical-align: middle; font-weight: normal; font-style: none; text-decoration: none; display: table-cell;]]></theme>
+    <theme type="button" name=".newtheme_4[state='0']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(BG2.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".newtheme_4[state='1']"><![CDATA[padding: 0px 0px 0px 0px; color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".SUBPAGE[state='0']"><![CDATA[padding: 0px 0px 0px 0px;  filter: Alpha(Opacity=100); -moz-opacity:1; opacity: 1; background-color: White; color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".SUBPAGE[state='1']"><![CDATA[padding: 0px 0px 0px 0px; color: White; font-size: 40px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="gauge" name=".newtheme_5[state='0']"><![CDATA[]]></theme>
+    <theme type="gauge" name=".newtheme_5[state='1']"><![CDATA[]]></theme>
+    <theme type="button" name=".read[state='0']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(45245836.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".read[state='1']"><![CDATA[padding: 0px 0px 0px 0px; color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".gureen[state='0']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(12344536.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".gureen[state='1']"><![CDATA[padding: 0px 0px 0px 0px; color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".001_Connected[state='0']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(001_Home\Connected.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".001_Connected[state='1']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(001_Home\Connected.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".001_Not_Connected[state='0']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(001_Home\Not-connected.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".001_Not_Connected[state='1']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(001_Home\Not-connected.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".Connected[state='0']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(Connected.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".Connected[state='1']"><![CDATA[padding: 0px 0px 0px 0px; color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".Notconnected[state='0']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(Not-connected.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".Notconnected[state='1']"><![CDATA[padding: 0px 0px 0px 0px; color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+  </themes>
+  <scripts>
+    <script name="網路連線.lua" />
+  </scripts>
+  <page name="page1" j="0" transition="" subtype="" time="0" ease="">
+    <portrait />
+    <landscape t="BG2">
+      <btn j="101" x="164" y="418" w="214" h="86" t="Empty_btn" flip="None" sim="1" l="1" s="1">
+        <inactive s="0">燈光1</inactive>
+        <active s="0">燈光1</active>
+      </btn>
+      <btn j="102" x="410" y="418" w="214" h="86" t="Empty_btn" flip="None" sim="1" l="1" s="1">
+        <inactive s="0">燈光2</inactive>
+        <active s="0">燈光2</active>
+      </btn>
+      <btn j="103" x="647" y="418" w="214" h="86" t="Empty_btn" flip="None" sim="1" l="1" s="1">
+        <inactive s="0">燈光3</inactive>
+        <active s="0">燈光3</active>
+      </btn>
+      <btn j="0" x="31" y="257" w="98" h="49" t="Empty_btn" flip="HOME" sim="1" l="1" s="1">
+        <inactive s="0">首頁</inactive>
+        <active s="0">首頁</active>
+      </btn>
+    </landscape>
+  </page>
+  <page name="Reconnect" j="888" transition="None" subtype="None" time="0" ease="">
+    <portrait />
+    <landscape t="BG2">
+      <txt j="0" x="211" y="244" w="631" h="304" t="TEXT1" wrap="False" l="1">網路連線異常
+1.請將WIFI連接到 "網路名稱"
+2.建議將XPANEL PRO從背景關閉後重新打開
+</txt>
+      <btn j="800" x="287" y="560" w="179" h="62" t="Empty_btn" flip="HOME" sim="0" l="0" s="1">
+        <inactive s="0">重新連接</inactive>
+        <active s="0">重新連接</active>
+      </btn>
+      <btn j="0" x="528" y="560" w="179" h="62" t="Empty_btn" flip="Return" sim="0" l="0" s="1">
+        <inactive s="0">關閉程式</inactive>
+        <active s="0">關閉程式</active>
+      </btn>
+    </landscape>
+  </page>
+  <page name="HOME" j="0" transition="" subtype="" time="0" ease="" start="1">
+    <portrait />
+    <landscape t="BG2">
+      <timer j="11" interval="5001">
+        <command>connect</command>
+      </timer>
+      <timer j="12" interval="5001">
+        <command>connect_1</command>
+      </timer>
+      <btn j="0" x="357" y="572" w="214" h="86" t="Empty_btn" flip="page1" sim="0" l="1" s="1">
+        <inactive s="0">系統開</inactive>
+        <active s="0">系統開</active>
+      </btn>
+      <btn j="0" x="656" y="572" w="214" h="86" t="Empty_btn" flip="None" sim="0" l="1" s="1">
+        <inactive s="0">系統關</inactive>
+        <active s="0">系統關</active>
+      </btn>
+      <subpage name="conneter" x="25" y="200" j="10" transition1="None" subtype1="None" time1="0" ease1="" transition2="None" subtype2="None" time2="0" ease2="" clickthrough="0" topmost="0" v="0" l="0" />
+      <subpage name="erro" x="25" y="200" j="20" transition1="None" subtype1="None" time1="0" ease1="" transition2="None" subtype2="None" time2="0" ease2="" clickthrough="0" topmost="0" v="1" l="0" />
+      <img x="337" y="208" w="52" h="48" j="0" clickthrough="0" refresh="0" l="0" noCache="0" downloadIndicator="0" clearOnURLChange="0">loadingIcon.gif</img>
+    </landscape>
+  </page>
+  <subpage name="conneter" w="311" h="68" clip="1">
+    <btn j="0" x="0" y="0" w="311" h="68" t="Connected" flip="None" sim="0" l="1" s="1">
+      <inactive s="0">
+      </inactive>
+      <active s="0">
+      </active>
+    </btn>
+  </subpage>
+  <subpage name="erro" w="311" h="68" clip="1">
+    <btn j="0" x="0" y="0" w="311" h="68" t="Notconnected" flip="None" sim="0" l="1" s="1">
+      <inactive s="0">
+      </inactive>
+      <active s="0">
+      </active>
+    </btn>
+  </subpage>
+</gui>
