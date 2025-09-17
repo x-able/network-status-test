@@ -72,3 +72,5 @@ end
 
 button_event(10,1)
 print(buttonstr)
+
+--肏你媽操以媽
